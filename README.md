@@ -1,6 +1,5 @@
 # rust-dps310-driver
 Tested the DPS310 temperature and pressure sensor with the Raspberry Pi Pico 2 W. Used the Embassy library to set up an I2C driver interface. Connected SDA and SCL to pin 14 and 15, respectively. Currently supports "command" mode.
-![Raspberry Pi Pico 2 W](images/pico-2.png)
 
 ### Get started
 - Run `cargo run` to see the sensor's temperature and pressure data
